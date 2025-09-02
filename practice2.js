@@ -7,3 +7,4 @@ console.log(divisibleBY10);
 
 const find = numbers.find(divided => divided % 10 === 0);
 console.log(find);
+ 
