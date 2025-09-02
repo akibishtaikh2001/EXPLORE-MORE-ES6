@@ -8,10 +8,19 @@ for (const number of numbers) {
     odd.push(num)
 }
 
-console.log(odd);
+ console.log(odd);
 
 
 //  Map
 
-const odd2 = numbers.map(num => num + 1);
+const odd2 = numbers.map(num => {
+    if (numbers % 2 !== 0) {
+        return num + 1;
+    }
+    else {
+        return 0;
+    }
+});
+
 console.log(odd2);
+
