@@ -1,10 +1,10 @@
 const numbers = [1, 3, 5, 7, 9];
 const odd = [];
-for(const number of numbers){
+for (const number of numbers) {
     let num = 0;
-  if(number % 2 !== 0){
-    num = number + 1; 
-  }
+    if (number % 2 !== 0) {
+        num = number + 1;
+    }
     odd.push(num)
 }
 
